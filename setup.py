@@ -36,7 +36,7 @@ setup(
     long_description=__doc__,
     packages=find_packages(),
     install_requires=[
-        'zerorpc==0.5.1',
+        'zerorpc>=0.5.1, <0.7',
         'sqlalchemy>=0.9.8, <1.2'
     ],
     classifiers=[
