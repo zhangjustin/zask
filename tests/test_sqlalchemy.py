@@ -2,8 +2,8 @@
 
 import unittest
 import atexit
-
 from datetime import datetime
+
 from sqlalchemy.ext.declarative import declared_attr
 from sqlalchemy.orm import Query as BaseQuery
 from zask import Zask
