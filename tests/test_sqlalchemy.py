@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import unittest
 import atexit
+import unittest
 from datetime import datetime
 
 from sqlalchemy.ext.declarative import declared_attr
