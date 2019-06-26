@@ -246,11 +246,11 @@ class RequestChainMiddleware(object):
             event.header.update({
                 'origin_access_key': event.header.get('origin_access_key')
             })
-        if event.header.get('access_key') and not \
-                event.header.get('origin_access_key'):
-            event.header.update({
-                'origin_access_key': event.header.get('access_key')
-            })
+        else:
+            if event.header.get('access_key'):
+                event.header.update({
+                    'origin_access_key': event.header.get('access_key')
+                })
 
 
 class RequestEventMiddleware(object):
