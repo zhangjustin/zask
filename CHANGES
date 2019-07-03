@@ -4,11 +4,11 @@ Zask Changelog
 Here you can see the full list of changes between each Zask release.
 
 Version 1.9.8
------------
+-------------
 
-released on July 3th 2019
+released on July 3rd 2019
 
-* Add origin access to thread local and bring it to next service
+* Add origin access key to thread local and bring it to next service
 
 Version 1.9.7
 -------------
